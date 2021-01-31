@@ -33,15 +33,16 @@
         app:srcCompat="@drawable/triangle" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/show"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView"
         android:layout_alignParentRight="true"
-        android:layout_marginTop="45dp"
-        android:layout_marginRight="80dp"
+        android:layout_marginTop="54dp"
+        android:layout_marginRight="21dp"
         android:contentDescription="C="
-        android:text="C?" />
+        android:text="C?"
+        android:textSize="20dp"/>
 
     <EditText
         android:id="@+id/per"
@@ -53,10 +54,11 @@
         android:layout_marginTop="45dp"
         android:layout_marginRight="40dp"
         android:background="@drawable/leg_a"
+        android:hint="leg a"
         android:inputType="number"
-        android:text="leg a"
+        android:text=""
         android:textAlignment="center"
-        android:textSize="10pt" />
+        android:textSize="20dp" />
 
     <EditText
         android:id="@+id/per1"
@@ -68,10 +70,32 @@
         android:layout_marginTop="45dp"
         android:layout_marginRight="40dp"
         android:background="@drawable/leg_b"
+        android:hint="leg b"
         android:inputType="number"
-        android:text="leg b"
+        android:text=""
         android:textAlignment="center"
-        android:textSize="10pt" />
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/Calcu"
+        android:layout_width="341dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/per1"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginRight="40dp"
+        android:text="SOLVE" />
+
+    <TextView
+        android:id="@+id/show1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:text="พชร สังข์แก้ว 621310432"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:textSize="20dp"/>
 
 
 </RelativeLayout>
